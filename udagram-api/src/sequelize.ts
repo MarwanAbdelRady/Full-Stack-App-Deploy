@@ -11,6 +11,3 @@ export const sequelize = new Sequelize({
   dialect: "postgres",
   storage: ":memory:",
 });
-// export const sequelize = new Sequelize(
-//   "postgres://postgres:postgres@database-1.catj1cb16qco.us-east-1.rds.amazonaws.com:5432/udacity"
-// );
