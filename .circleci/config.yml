@@ -12,7 +12,7 @@ jobs:
       - image: "cimg/base:stable"
     steps:
       - node/install:
-          node-version: 14.19.0
+          node-version: 14.19.1
       - checkout
       - aws-cli/setup
       - aws-elastic-beanstalk/setup
