@@ -6,7 +6,8 @@
     "backend:build": "cd udagram-api && npm run build",
     "frontend:deploy": "cd udagram-frontend && npm run deploy",
     "backend:deploy": "cd udagram-api && npm run deploy",
-    "test": "cd udagram-frontend && npm run test && cd ..  && cd udagram-api && npm run test"
+    "test": "cd udagram-frontend && npm run test && cd ..  && cd udagram-api && npm run test",
+    "deploy": "chmod +x ./bin/deploy.sh && ./bin/deploy.sh"
   },
   "dependencies": {
     "@types/bcryptjs": "^2.4.2",
