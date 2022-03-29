@@ -8,11 +8,11 @@ orbs:
 jobs:
   build:
     docker:
-      # the base image can run most needed actions with orbs
+      # the base image can run most needed actions with orb
       - image: "cimg/base:stable"
     steps:
       - node/install:
-          node-version: 14.19.0
+          node-version: 14.19.1
       - checkout
       - aws-cli/setup
       - aws-elastic-beanstalk/setup
