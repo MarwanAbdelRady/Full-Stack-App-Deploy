@@ -1,8 +1,8 @@
 
-eb init mw-api --platform node.js --region us-east-1
-eb create --sample mwapi-dev
-eb use mwapi-dev
-eb deploy mwapi-dev
+eb init mwww-api --platform node.js --region us-east-1
+eb create --sample mwww-api
+eb use mwww-api
+eb deploy mwww-api
 
 eb setenv POSTGRES_USERNAME=$POSTGRES_USERNAME POSTGRES_PASSWORD=$POSTGRES_PASSWORD POSTGRES_DB=$POSTGRES_DB DB_PORT=$DB_PORT PORT=$PORT POSTGRES_HOST=$POSTGRES_HOST URL=$URL AWS_DEFAULT_REGION=$AWS_DEFAULT_REGION AWS_PROFILE=$AWS_PROFILE AWS_BUCKET=$AWS_BUCKET AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY JWT_SECRET=$JWT_SECRET
 
