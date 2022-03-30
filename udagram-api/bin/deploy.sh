@@ -1,5 +1,5 @@
 
-eb init mw-api --platform node.js --region us-east-2 
+eb init mw-api --platform node.js --region us-east-1 
 eb create --sample mwapi-dev
 eb use mwapi-dev
 eb deploy mwapi-dev 
