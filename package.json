@@ -8,8 +8,5 @@
     "backend:deploy": "cd udagram-api && npm run deploy",
     "test": "cd udagram-frontend && npm run test && cd ..  && cd udagram-api && npm run test"
   },
-  "dependencies": {
-    "@types/bcryptjs": "^2.4.2",
-    "bcryptjs": "^2.4.3"
-  }
+  "dependencies": {}
 }
