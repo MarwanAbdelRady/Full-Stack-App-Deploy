@@ -1,3 +1,5 @@
+
+eb init Wm-env --platform node.js --region us-east-1 
 eb use Wm-env
 eb deploy Wm-env
 
